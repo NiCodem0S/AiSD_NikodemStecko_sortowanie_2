@@ -1,7 +1,7 @@
 CXX = g++
 LIBS =
 CXXFLAGS = -Wall -std=c++11
-OBJECTS = main.o mergesort.o
+OBJECTS = main.o
 HFILES = mergesort.hpp
 TARGET = main.out
 

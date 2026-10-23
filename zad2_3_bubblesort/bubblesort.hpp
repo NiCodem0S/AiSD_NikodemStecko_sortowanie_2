@@ -2,16 +2,15 @@
 #define BUBBLESORT_HPP
 
 #include <utility>
-#include <iterator>
 
 template <typename Iterator>
 void bubblesort(Iterator first, Iterator last) {
     if(first == last) return;
-    bool swaped = true;
+    bool swapped = true;
 
-    while(swaped)
+    while(swapped)
     {
-        swaped = false;
+        swapped = false;
 
         auto current = first;
         auto next = first;
@@ -19,7 +18,7 @@ void bubblesort(Iterator first, Iterator last) {
 
         while(next != last){
             if(*current > *next){
-                std:swap(*current, *next)
+                std::swap(*current, *next);
                 swapped = true;
             }
             ++current;

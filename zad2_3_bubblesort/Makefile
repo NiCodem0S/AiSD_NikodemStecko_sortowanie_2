@@ -1,7 +1,7 @@
 CXX = g++
 LIBS =
 CXXFLAGS = -Wall -std=c++11
-OBJECTS = main.o bubblesort.o
+OBJECTS = main.o
 HFILES = bubblesort.hpp
 TARGET = main.out
 
